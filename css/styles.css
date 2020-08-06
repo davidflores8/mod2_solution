@@ -1,0 +1,60 @@
+.container{
+	margin-top: 200px;
+	background: yellow;
+	padding: 5px;
+}
+
+.p1{
+	background: gray;
+	margin: 10px;
+	padding: 20px;
+	border-color: 2px black;
+}
+
+.t1{
+	background: maroon;
+	margin: 10px;
+	padding: 20px;
+	border-color: 2px black;
+	font-weight: bold;
+	float: right;
+}
+
+.p2{
+	clear: left;
+	background: gray;
+	margin: 10px;
+	padding: 20px;
+	border-color: 2px black;
+}
+
+.t2{
+	background: red;
+	margin: 10px;
+	padding: 20px;
+	border-color: 2px black;
+	font-weight: bold;
+	float: right;
+}
+
+.p3{
+	clear: left;
+	background: gray;
+	margin: 10px;
+	padding: 20px;
+	border-color: 2px black;
+}
+
+.t3{
+	background: blue;
+	margin: 10px;
+	padding: 20px;
+	border-color: 2px black;
+	font-weight: bold;
+	float: right;
+}
+
+h1{
+	text-align: center;
+	border: 5px black;
+}
