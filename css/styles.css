@@ -1,60 +1,109 @@
-.container{
-	margin-top: 200px;
-	background: yellow;
-	padding: 5px;
+*
+{
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+
+}
+section{
+	display: inline-block;
+
+}
+p{
+    padding: 5%;
+    clear: right;
+    font-size: 100%;
 }
 
-.p1{
-	background: gray;
-	margin: 10px;
-	padding: 20px;
-	border-color: 2px black;
-}
-
-.t1{
-	background: maroon;
-	margin: 10px;
-	padding: 20px;
-	border-color: 2px black;
-	font-weight: bold;
-	float: right;
-}
-
-.p2{
-	clear: left;
-	background: gray;
-	margin: 10px;
-	padding: 20px;
-	border-color: 2px black;
-}
-
-.t2{
-	background: red;
-	margin: 10px;
-	padding: 20px;
-	border-color: 2px black;
-	font-weight: bold;
-	float: right;
-}
-
-.p3{
-	clear: left;
-	background: gray;
-	margin: 10px;
-	padding: 20px;
-	border-color: 2px black;
-}
-
-.t3{
-	background: blue;
-	margin: 10px;
-	padding: 20px;
-	border-color: 2px black;
-	font-weight: bold;
-	float: right;
-}
-
-h1{
+h1 {
+	margin-bottom: 50px;
 	text-align: center;
-	border: 5px black;
+	font-size: 2.5em;
 }
+
+
+.Pasta{
+	float: right;
+	width: 30%;
+	background-color: #FFE5CC;
+	text-align: center;
+	border-bottom: 4px solid #000;
+	border-left: 4px solid #000;
+	font-size: 1.25em;
+	padding: 5px 0 5px;
+	
+}
+.Sushi{
+	float: right;
+	width: 30%;
+	text-align: center;
+	border-bottom: 4px solid #000;
+	border-left: 4px solid #000;
+	font-size: 1.25em;
+	padding: 5px 0 5px;
+	background-color: #FFCC99;
+	
+}
+.Fried{
+	float: right;
+	text-align: center;
+	border-bottom: 5px solid #000;
+	border-left: 5px solid #000;
+	font-size: 1.25em;
+	width: 30%;
+	padding: 5px 0 5px;
+	background-color: #FFCCCC;
+	
+}
+
+.container{
+	border: 2px solid #000;
+	background-color: 	#C0C0C0;
+    
+
+}
+
+@media (min-width: 992px)
+{
+	.col-lg-1, .col-lg-2, .col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
+		float: left;
+		padding: 1.5%;
+	}
+	.col-lg-1{
+		width: 8.33%;
+	}
+	.col-lg-2{
+		width: 16.66%;
+	}
+	.col-lg-3{
+		width:25%; 
+	}
+	.col-lg-4{
+		width: 33%;
+	}
+	.col-lg-5{
+		width: 41.66%;
+	}
+	.col-lg-6{
+		width: 50%;
+	}
+	.col-lg-7{
+		width: 58.33%;
+	}
+	.col-lg-8{
+	    width:66.66%;
+    }	
+	.col-lg-9{
+		width: 74.99%;
+	}
+	.col-lg-10{
+		width: 83.33%;
+	}
+	.col-lg-11{
+		width: 91.66%;
+	}
+	.col-lg-12{
+		width: 100%;
+	}
+	}
